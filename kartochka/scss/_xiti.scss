@@ -1,0 +1,92 @@
+.xiti {
+  &__name {
+    color: #414141;
+    font-size: 16px;
+    font-family: Roboto;
+    margin-top: 30px;
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    // gap: 10px;
+  }
+  &__col {
+    margin-top: 20px;
+    // padding: 2px;   
+    margin-right: 5px; 
+  }
+  &__card {
+    background: #fff;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.11);
+    padding: 20px;
+    position: relative;
+  }
+  &__heart {
+    position: absolute;
+    right: 20px;
+  }
+  &__rasm {
+    margin-top: 54px;
+    // margin-left: 12px;
+  }
+  &__title {
+    color: #414141;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-top: 54px;
+  }
+  &__subtitle {
+    color: #414141;
+    font-size: 11px;
+    font-family: Roboto;
+  }
+  &__prize {
+    color: var(--text-color, #414141);
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-top: 9px;
+  }
+  &__text {
+    color: var(--text-color, #414141);
+    font-size: 12px;
+    font-family: Roboto;
+    margin-top: 15px;
+  }
+  &__footer {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  &__shirina {
+    color: #c4c4c4;
+    font-size: 9px;
+    font-family: Roboto;
+    margin-right: 15px;
+  }
+  &__sm {
+    color: var(--text-color, #414141);
+    font-size: 9px;
+    font-family: Roboto;
+    margin-top: 8px;
+  }
+  &__iks {
+    color: var(--text-color, #414141);
+    font-size: 12px;
+    font-family: Roboto;
+    margin-right: 15px;
+  }
+  &__btn {
+    color: #fff;
+    font-size: 13px;
+    font-family: Roboto;
+    background: var(--main-color, #245462);
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: 13px 50px 12px;
+    margin-top: 17px;
+    width: 100%;
+  }
+}
