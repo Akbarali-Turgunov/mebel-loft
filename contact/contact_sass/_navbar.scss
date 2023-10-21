@@ -1,0 +1,83 @@
+.navbar {
+  background: #FFF;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 126px;
+  }
+
+  &__menu {
+    display: flex;
+  }
+
+  &__menu a {
+    color: var(--text-color, #414141);
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 15px;
+  }
+
+  &__inpt {
+    background: #F9F9F9;
+    width: 280px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-left: 15px;
+    }
+  }
+
+  &__poisk {
+    color: var(--text-color, #414141);
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 0;
+    outline: none;
+    background: inherit;
+    margin-left: 20px;
+  }
+
+  &__contacts {
+    display: flex;
+    align-items: center;
+  }
+
+  &__juft {
+    display: flex;
+    align-items: center;
+    // margin-left: 30px;
+    img{
+      margin-right: 10px;
+    }
+  }
+
+  &__call {
+    color: var(--text-color, #414141);
+    font-size: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 30px;
+  }
+
+  &__text {
+    color: #414141;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+}

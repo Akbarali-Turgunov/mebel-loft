@@ -1,0 +1,38 @@
+.osobo {
+    margin-top: 70px;
+  &__row {
+    display: flex;
+  }
+  &__col {
+    max-width: 50%;
+    padding: 23px 17px 8px 22px;
+    position: relative;
+  }
+  &__imga {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &__note {
+    background-color: #f4f4f4;
+    padding: 25px;
+  }
+  &__subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+    color: #414141;
+  }
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #686868;
+    margin-top: 10px;
+  }
+}

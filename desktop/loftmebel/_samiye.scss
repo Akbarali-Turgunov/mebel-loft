@@ -1,0 +1,32 @@
+.samiye {
+    background: #D7E8ED;
+  padding: 15px 0 80px;
+  text-align: center;
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #414141;
+    margin-top: 65px;
+  }
+  &__tire{
+    border: 1px solid #245462;
+    width: 50px;
+    margin: 15px auto;
+  }
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #686868;
+    max-width: 554px;
+    margin: 0 auto;
+  }
+}

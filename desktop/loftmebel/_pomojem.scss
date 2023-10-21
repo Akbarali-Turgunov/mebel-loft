@@ -1,0 +1,58 @@
+.pomojem {
+  text-align: center;
+  margin: 100px 0 23px;
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140.19%;
+    color: #414141;
+  }
+  &__row {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 75px;
+  }
+  &__col {
+    display: flex;
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+  &__right {
+    width: 280px;
+    margin-left: 20px;
+  }
+  &__subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #414141;
+  }
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #686868;
+  }
+  &__endtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140.19%;
+    text-align: center;
+    color: #414141;
+    width: 455px;
+    margin: 174px auto;
+  }
+}

@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul, li{
+    list-style: none;
+}
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1240px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+@import "_navbar.scss";
+@import "_header__body.scss";
+@import "_pokupay.scss";
+@import "_samiye.scss";
+@import "_osobo.scss";
+@import "_pomojem.scss";
+@import "_footer.scss";
+@import "_end.scss";

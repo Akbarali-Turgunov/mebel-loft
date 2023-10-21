@@ -1,0 +1,50 @@
+.pokupay {
+  text-align: center;
+  padding: 100px 0 95px;
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.015em;
+    color: #414141;
+    margin-bottom: 15px;
+  }
+  &__row {
+    margin-top: 80px;
+    display: flex;
+    text-align: left;
+  }
+  &__col {
+    width: 50%;
+    display: flex;
+    padding: 30px;
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 30px;
+    }
+  }
+  &__subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+    color: #414141;
+  }
+  &__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;    
+    color: #686868;
+    margin-top: 10px;
+    max-width: 440px;
+  }
+}

@@ -1,0 +1,70 @@
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 32px;
+
+  &__left {
+    display: flex;
+    a {
+      margin-right: 30px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 126.69%;
+      color: #414141;
+    }
+  }
+  &__left a:hover{
+    color: #D74444;
+  }
+  &__info {
+    display: flex;
+  }
+  &__call {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    a {
+      margin-left: 10px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 126.69%;
+      text-align: right;
+      color: #414141;
+    }
+  }
+  &__insta {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    a {
+      margin-left: 10px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 126.69%;
+      text-align: right;
+      color: #414141;
+    }
+  }
+  &__mail {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    a {
+      margin-left: 10px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 126.69%;
+      text-align: right;
+      color: #414141;
+    }
+  } 
+ }
